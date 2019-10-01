@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B18FDCA4B2FBB12203B82BC /* Pods_WanCircles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804E070CB3B2E2AF5F3A4563 /* Pods_WanCircles.framework */; };
+		CC0747EB234134C3005B753D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0747EA234134C3005B753D /* SignUpViewController.swift */; };
+		CC0747ED2341D94E005B753D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0747EC2341D94E005B753D /* MainViewController.swift */; };
+		CC30C4302342546D00ABBC59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */; };
 		CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51220F234121EF00A03AD3 /* AppDelegate.swift */; };
 		CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC512211234121EF00A03AD3 /* SceneDelegate.swift */; };
-		CC512214234121EF00A03AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC512213234121EF00A03AD3 /* ViewController.swift */; };
+		CC512214234121EF00A03AD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC512213234121EF00A03AD3 /* LoginViewController.swift */; };
 		CC512217234121EF00A03AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC512215234121EF00A03AD3 /* Main.storyboard */; };
 		CC51221A234121EF00A03AD3 /* WanCircles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC512218234121EF00A03AD3 /* WanCircles.xcdatamodeld */; };
 		CC51221C234121F000A03AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51221B234121F000A03AD3 /* Assets.xcassets */; };
 		CC51221F234121F000A03AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51221D234121F000A03AD3 /* LaunchScreen.storyboard */; };
+		CCF485D123428DB100AE5A08 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF485D023428DB100AE5A08 /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564F30D466DBD68A8EBAF169 /* Pods-WanCircles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanCircles.release.xcconfig"; path = "Target Support Files/Pods-WanCircles/Pods-WanCircles.release.xcconfig"; sourceTree = "<group>"; };
+		804E070CB3B2E2AF5F3A4563 /* Pods_WanCircles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanCircles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0747EA234134C3005B753D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CC0747EC2341D94E005B753D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC51220C234121EF00A03AD3 /* WanCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51220F234121EF00A03AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC512211234121EF00A03AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC512213234121EF00A03AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC512213234121EF00A03AD3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CC512216234121EF00A03AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC512219234121EF00A03AD3 /* WanCircles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WanCircles.xcdatamodel; sourceTree = "<group>"; };
 		CC51221B234121F000A03AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC51221E234121F000A03AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC512220234121F000A03AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF485D023428DB100AE5A08 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		CE2978379D84CDF920151C4A /* Pods-WanCircles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanCircles.debug.xcconfig"; path = "Target Support Files/Pods-WanCircles/Pods-WanCircles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B18FDCA4B2FBB12203B82BC /* Pods_WanCircles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5321755A04D99AB77AD527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804E070CB3B2E2AF5F3A4563 /* Pods_WanCircles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9090DA516A438A702F461723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE2978379D84CDF920151C4A /* Pods-WanCircles.debug.xcconfig */,
+				564F30D466DBD68A8EBAF169 /* Pods-WanCircles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC512203234121EF00A03AD3 = {
 			isa = PBXGroup;
 			children = (
 				CC51220E234121EF00A03AD3 /* WanCircles */,
 				CC51220D234121EF00A03AD3 /* Products */,
+				9090DA516A438A702F461723 /* Pods */,
+				6C5321755A04D99AB77AD527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +92,14 @@
 			children = (
 				CC51220F234121EF00A03AD3 /* AppDelegate.swift */,
 				CC512211234121EF00A03AD3 /* SceneDelegate.swift */,
-				CC512213234121EF00A03AD3 /* ViewController.swift */,
+				CC512213234121EF00A03AD3 /* LoginViewController.swift */,
+				CCF485D023428DB100AE5A08 /* MoreViewController.swift */,
+				CC0747EA234134C3005B753D /* SignUpViewController.swift */,
 				CC512215234121EF00A03AD3 /* Main.storyboard */,
+				CC0747EC2341D94E005B753D /* MainViewController.swift */,
 				CC51221B234121F000A03AD3 /* Assets.xcassets */,
 				CC51221D234121F000A03AD3 /* LaunchScreen.storyboard */,
+				CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */,
 				CC512220234121F000A03AD3 /* Info.plist */,
 				CC512218234121EF00A03AD3 /* WanCircles.xcdatamodeld */,
 			);
@@ -77,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC512223234121F000A03AD3 /* Build configuration list for PBXNativeTarget "WanCircles" */;
 			buildPhases = (
+				CF04E58DDC834EC533E137F7 /* [CP] Check Pods Manifest.lock */,
 				CC512208234121EF00A03AD3 /* Sources */,
 				CC512209234121EF00A03AD3 /* Frameworks */,
 				CC51220A234121EF00A03AD3 /* Resources */,
+				24116B55545ECE0194FA7BA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC51221F234121F000A03AD3 /* LaunchScreen.storyboard in Resources */,
+				CC30C4302342546D00ABBC59 /* GoogleService-Info.plist in Resources */,
 				CC51221C234121F000A03AD3 /* Assets.xcassets in Resources */,
 				CC512217234121EF00A03AD3 /* Main.storyboard in Resources */,
 			);
@@ -136,13 +175,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24116B55545ECE0194FA7BA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanCircles/Pods-WanCircles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanCircles/Pods-WanCircles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WanCircles/Pods-WanCircles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF04E58DDC834EC533E137F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanCircles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC512208234121EF00A03AD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC512214234121EF00A03AD3 /* ViewController.swift in Sources */,
+				CCF485D123428DB100AE5A08 /* MoreViewController.swift in Sources */,
+				CC512214234121EF00A03AD3 /* LoginViewController.swift in Sources */,
 				CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */,
+				CC0747EB234134C3005B753D /* SignUpViewController.swift in Sources */,
+				CC0747ED2341D94E005B753D /* MainViewController.swift in Sources */,
 				CC51221A234121EF00A03AD3 /* WanCircles.xcdatamodeld in Sources */,
 				CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +370,7 @@
 		};
 		CC512224234121F000A03AD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2978379D84CDF920151C4A /* Pods-WanCircles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +389,7 @@
 		};
 		CC512225234121F000A03AD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564F30D466DBD68A8EBAF169 /* Pods-WanCircles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
