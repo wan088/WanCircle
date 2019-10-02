@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
             guard let strongSelf = self else { return }
             if let userInfo = user{
                 strongSelf.updateInfoPlist()
-                let vc = strongSelf.storyboard?.instantiateViewController(identifier: "storyboard_navi")
+                guard let vc = strongSelf.storyboard?.instantiateViewController(identifier: "storyboard_navi") else {return}
                 UIApplication.shared.windows.first?.rootViewController = vc
             }else{
                 let alert = UIAlertController(title: "로그인 오류", message: "로그인 정보를 다시 확인해주세요", preferredStyle: .alert)
@@ -57,7 +57,8 @@ class LoginViewController: UIViewController {
     }
     func checkIsLogined(){
         if let user = Auth.auth().currentUser{
-            let vc = self.storyboard?.instantiateViewController(identifier: "storyboard_navi")
+            guard let vc = self.storyboard?.instantiateViewController(identifier: "storyboard_navi") else {return}
+            
             UIApplication.shared.windows.first?.rootViewController = vc
         }
     }

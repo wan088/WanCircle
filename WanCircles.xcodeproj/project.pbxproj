@@ -10,6 +10,10 @@
 		5B18FDCA4B2FBB12203B82BC /* Pods_WanCircles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804E070CB3B2E2AF5F3A4563 /* Pods_WanCircles.framework */; };
 		CC0747EB234134C3005B753D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0747EA234134C3005B753D /* SignUpViewController.swift */; };
 		CC0747ED2341D94E005B753D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0747EC2341D94E005B753D /* MainViewController.swift */; };
+		CC1BB2DF2343BD0700DDC2CF /* BoardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2DE2343BD0700DDC2CF /* BoardListViewController.swift */; };
+		CC1BB2E22343BF2300DDC2CF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E12343BF2300DDC2CF /* Post.swift */; };
+		CC1BB2E62343CA9F00DDC2CF /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */; };
+		CC1BB2EA2343D6E300DDC2CF /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */; };
 		CC30C4302342546D00ABBC59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */; };
 		CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51220F234121EF00A03AD3 /* AppDelegate.swift */; };
 		CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC512211234121EF00A03AD3 /* SceneDelegate.swift */; };
@@ -26,6 +30,10 @@
 		804E070CB3B2E2AF5F3A4563 /* Pods_WanCircles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanCircles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0747EA234134C3005B753D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CC0747EC2341D94E005B753D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC1BB2DE2343BD0700DDC2CF /* BoardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListViewController.swift; sourceTree = "<group>"; };
+		CC1BB2E12343BF2300DDC2CF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC51220C234121EF00A03AD3 /* WanCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51220F234121EF00A03AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CC1BB2E02343BF1600DDC2CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC1BB2E12343BF2300DDC2CF /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC1BB2E32343CA5400DDC2CF /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC512213234121EF00A03AD3 /* LoginViewController.swift */,
+				CC0747EA234134C3005B753D /* SignUpViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		CC1BB2E42343CA6700DDC2CF /* BoardVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC1BB2DE2343BD0700DDC2CF /* BoardListViewController.swift */,
+				CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */,
+				CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */,
+			);
+			path = BoardVC;
+			sourceTree = "<group>";
+		};
 		CC512203234121EF00A03AD3 = {
 			isa = PBXGroup;
 			children = (
@@ -90,11 +125,12 @@
 		CC51220E234121EF00A03AD3 /* WanCircles */ = {
 			isa = PBXGroup;
 			children = (
+				CC1BB2E42343CA6700DDC2CF /* BoardVC */,
+				CC1BB2E32343CA5400DDC2CF /* LoginVC */,
+				CC1BB2E02343BF1600DDC2CF /* Model */,
 				CC51220F234121EF00A03AD3 /* AppDelegate.swift */,
 				CC512211234121EF00A03AD3 /* SceneDelegate.swift */,
-				CC512213234121EF00A03AD3 /* LoginViewController.swift */,
 				CCF485D023428DB100AE5A08 /* MoreViewController.swift */,
-				CC0747EA234134C3005B753D /* SignUpViewController.swift */,
 				CC512215234121EF00A03AD3 /* Main.storyboard */,
 				CC0747EC2341D94E005B753D /* MainViewController.swift */,
 				CC51221B234121F000A03AD3 /* Assets.xcassets */,
@@ -225,10 +261,14 @@
 				CCF485D123428DB100AE5A08 /* MoreViewController.swift in Sources */,
 				CC512214234121EF00A03AD3 /* LoginViewController.swift in Sources */,
 				CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */,
+				CC1BB2DF2343BD0700DDC2CF /* BoardListViewController.swift in Sources */,
 				CC0747EB234134C3005B753D /* SignUpViewController.swift in Sources */,
 				CC0747ED2341D94E005B753D /* MainViewController.swift in Sources */,
+				CC1BB2E22343BF2300DDC2CF /* Post.swift in Sources */,
 				CC51221A234121EF00A03AD3 /* WanCircles.xcdatamodeld in Sources */,
 				CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */,
+				CC1BB2E62343CA9F00DDC2CF /* BoardViewController.swift in Sources */,
+				CC1BB2EA2343D6E300DDC2CF /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
