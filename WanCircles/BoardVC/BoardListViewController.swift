@@ -10,7 +10,7 @@ class BoardListViewController: UITableViewController {
     func initBoards(){
         let ref = Database.database().reference().child("게시판목록")
         ref.observe(.value) {[weak self] (snapshot) in
-            let dict = snapshot.value as? [String:String] ?? [:]
+            let dict = snapshot.value as? [String:Any] ?? [:]
             for key in dict.keys{
                 print(key)
                 self?.boards.append(key)

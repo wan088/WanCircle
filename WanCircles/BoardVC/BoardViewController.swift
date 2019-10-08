@@ -35,6 +35,7 @@ class BoardViewController: UITableViewController {
             for json in values {
                 tmpPosts.append(Post(boardName: json["게시판명"]!, title: json["제목"]!, writer: json["작성자"]!, content: json["내용"]!))
             }
+            
             self?.posts = tmpPosts
             self?.tableView.reloadData()
         }
@@ -56,5 +57,17 @@ class BoardViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return self.posts.count
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let vc = navigationController?.storyboard?.instantiateViewController(identifier: "tpvc") as? ThisPostViewController else {
+            print("????")
+            return
+        }
+        vc.post = posts[indexPath.row]
+        self.show(vc, sender: self)
+        
+        
+    }
+    
 
 }

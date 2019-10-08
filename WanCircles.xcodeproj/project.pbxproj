@@ -14,6 +14,8 @@
 		CC1BB2E22343BF2300DDC2CF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E12343BF2300DDC2CF /* Post.swift */; };
 		CC1BB2E62343CA9F00DDC2CF /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */; };
 		CC1BB2EA2343D6E300DDC2CF /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */; };
+		CC2FCC47234CCF67007F8ECA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FCC46234CCF67007F8ECA /* UserData.swift */; };
+		CC2FCC49234CF1C3007F8ECA /* ThisPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FCC48234CF1C3007F8ECA /* ThisPostViewController.swift */; };
 		CC30C4302342546D00ABBC59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */; };
 		CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51220F234121EF00A03AD3 /* AppDelegate.swift */; };
 		CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC512211234121EF00A03AD3 /* SceneDelegate.swift */; };
@@ -22,6 +24,9 @@
 		CC51221A234121EF00A03AD3 /* WanCircles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC512218234121EF00A03AD3 /* WanCircles.xcdatamodeld */; };
 		CC51221C234121F000A03AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51221B234121F000A03AD3 /* Assets.xcassets */; };
 		CC51221F234121F000A03AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51221D234121F000A03AD3 /* LaunchScreen.storyboard */; };
+		CC96EEA62349DC76006531A1 /* MeetingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96EEA52349DC76006531A1 /* MeetingListViewController.swift */; };
+		CC96EEA82349DFDC006531A1 /* AddMettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96EEA72349DFDC006531A1 /* AddMettingViewController.swift */; };
+		CC96EEAA2349E2BD006531A1 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96EEA92349E2BD006531A1 /* MeetingViewController.swift */; };
 		CCF485D123428DB100AE5A08 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF485D023428DB100AE5A08 /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +39,8 @@
 		CC1BB2E12343BF2300DDC2CF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		CC2FCC46234CCF67007F8ECA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CC2FCC48234CF1C3007F8ECA /* ThisPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisPostViewController.swift; sourceTree = "<group>"; };
 		CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC51220C234121EF00A03AD3 /* WanCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51220F234121EF00A03AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		CC51221B234121F000A03AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC51221E234121F000A03AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC512220234121F000A03AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96EEA52349DC76006531A1 /* MeetingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListViewController.swift; sourceTree = "<group>"; };
+		CC96EEA72349DFDC006531A1 /* AddMettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMettingViewController.swift; sourceTree = "<group>"; };
+		CC96EEA92349E2BD006531A1 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
 		CCF485D023428DB100AE5A08 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		CE2978379D84CDF920151C4A /* Pods-WanCircles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanCircles.debug.xcconfig"; path = "Target Support Files/Pods-WanCircles/Pods-WanCircles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CC1BB2E12343BF2300DDC2CF /* Post.swift */,
+				CC2FCC46234CCF67007F8ECA /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +111,7 @@
 				CC1BB2DE2343BD0700DDC2CF /* BoardListViewController.swift */,
 				CC1BB2E52343CA9F00DDC2CF /* BoardViewController.swift */,
 				CC1BB2E92343D6E300DDC2CF /* PostViewController.swift */,
+				CC2FCC48234CF1C3007F8ECA /* ThisPostViewController.swift */,
 			);
 			path = BoardVC;
 			sourceTree = "<group>";
@@ -125,14 +137,15 @@
 		CC51220E234121EF00A03AD3 /* WanCircles */ = {
 			isa = PBXGroup;
 			children = (
+				CC96EEA22349DBDB006531A1 /* SettingVC */,
+				CC96EEA12349DBC4006531A1 /* MeetingVC */,
 				CC1BB2E42343CA6700DDC2CF /* BoardVC */,
 				CC1BB2E32343CA5400DDC2CF /* LoginVC */,
 				CC1BB2E02343BF1600DDC2CF /* Model */,
 				CC51220F234121EF00A03AD3 /* AppDelegate.swift */,
-				CC512211234121EF00A03AD3 /* SceneDelegate.swift */,
-				CCF485D023428DB100AE5A08 /* MoreViewController.swift */,
-				CC512215234121EF00A03AD3 /* Main.storyboard */,
 				CC0747EC2341D94E005B753D /* MainViewController.swift */,
+				CC512211234121EF00A03AD3 /* SceneDelegate.swift */,
+				CC512215234121EF00A03AD3 /* Main.storyboard */,
 				CC51221B234121F000A03AD3 /* Assets.xcassets */,
 				CC51221D234121F000A03AD3 /* LaunchScreen.storyboard */,
 				CC30C42F2342546D00ABBC59 /* GoogleService-Info.plist */,
@@ -140,6 +153,24 @@
 				CC512218234121EF00A03AD3 /* WanCircles.xcdatamodeld */,
 			);
 			path = WanCircles;
+			sourceTree = "<group>";
+		};
+		CC96EEA12349DBC4006531A1 /* MeetingVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC96EEA52349DC76006531A1 /* MeetingListViewController.swift */,
+				CC96EEA72349DFDC006531A1 /* AddMettingViewController.swift */,
+				CC96EEA92349E2BD006531A1 /* MeetingViewController.swift */,
+			);
+			path = MeetingVC;
+			sourceTree = "<group>";
+		};
+		CC96EEA22349DBDB006531A1 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				CCF485D023428DB100AE5A08 /* MoreViewController.swift */,
+			);
+			path = SettingVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +292,9 @@
 				CCF485D123428DB100AE5A08 /* MoreViewController.swift in Sources */,
 				CC512214234121EF00A03AD3 /* LoginViewController.swift in Sources */,
 				CC512210234121EF00A03AD3 /* AppDelegate.swift in Sources */,
+				CC2FCC47234CCF67007F8ECA /* UserData.swift in Sources */,
+				CC2FCC49234CF1C3007F8ECA /* ThisPostViewController.swift in Sources */,
+				CC96EEAA2349E2BD006531A1 /* MeetingViewController.swift in Sources */,
 				CC1BB2DF2343BD0700DDC2CF /* BoardListViewController.swift in Sources */,
 				CC0747EB234134C3005B753D /* SignUpViewController.swift in Sources */,
 				CC0747ED2341D94E005B753D /* MainViewController.swift in Sources */,
@@ -269,6 +303,8 @@
 				CC512212234121EF00A03AD3 /* SceneDelegate.swift in Sources */,
 				CC1BB2E62343CA9F00DDC2CF /* BoardViewController.swift in Sources */,
 				CC1BB2EA2343D6E300DDC2CF /* PostViewController.swift in Sources */,
+				CC96EEA62349DC76006531A1 /* MeetingListViewController.swift in Sources */,
+				CC96EEA82349DFDC006531A1 /* AddMettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

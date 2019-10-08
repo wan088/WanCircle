@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import CoreBluetooth
 class MoreViewController: UITableViewController {
 
     @IBOutlet weak var userName: UILabel!
@@ -19,18 +20,21 @@ class MoreViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        userName.text = UserDefaults.standard.string(forKey: "name")
+        
+        userName.text = UserData.current.Name
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if(indexPath.section == 1 && indexPath.row == 0){
             logout()
+            
         }
     }
     func logout(){
-        UserDefaults.standard.set("", forKey: "Email")
-        UserDefaults.standard.set("", forKey: "이름")
-        UserDefaults.standard.set("", forKey: "소속")
-        UserDefaults.standard.set("", forKey: "대학")
+        UserData.current.Email = ""
+        UserData.current.Name = ""
+        UserData.current.Univ = ""
+        UserData.current.Belong = ""
+        
         try! Auth.auth().signOut()
         UIApplication.shared.windows[0].rootViewController = storyboard?.instantiateViewController(identifier: "storyboard_login")
     }

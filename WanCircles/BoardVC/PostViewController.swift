@@ -21,7 +21,7 @@ class PostViewController: UIViewController {
             return
         }
         var tmp = Database.database().reference().child("게시글").childByAutoId()
-        
+        print(tmp.key!)
         var dict = [String:String]()
         dict["게시판명"] = boardName
         dict["제목"] = title
@@ -33,7 +33,6 @@ class PostViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(DoneBtn(_:)))
-
     }
     
 }

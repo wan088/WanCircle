@@ -25,11 +25,15 @@ class SignUpViewController: UIViewController{
         guard let email = Email_TF.text else {return}
         guard let password = PassWord_TF.text else {return}
         
-        
         Auth.auth().createUser(withEmail: email, password: password) {[weak self] (result, error) in
             if let _ = result{
                 self?.registerInfo()
-                self?.dismiss(animated: true)
+                var alert = UIAlertController(title: "회원가입 완료", message: "이제 해당 아이디로 로그인 할 수 있습니다.", preferredStyle: .alert)
+                var ok = UIAlertAction(title: "확인", style: .default) { (action) in
+                    self?.dismiss(animated: true)
+                }
+                alert.addAction(ok)
+                self?.present(alert, animated: true)
             }
         }
     }
@@ -44,6 +48,7 @@ class SignUpViewController: UIViewController{
         dict["이름"] = (Name_TF.text)!
         dict["소속"] = (Type_SC.selectedSegmentIndex == 0 ? "작은예술" : "작은사색")
         dict["대학"] = (Univ_TF.text)!
+        dict["등급"] = "일반"
         user.setValue(dict)
         
     }
